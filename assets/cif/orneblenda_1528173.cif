@@ -1,0 +1,105 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 21:28:24 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176429 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/52/81/1528173.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1528173
+loop_
+_publ_author_name
+'Walitzi, E.M.'
+'Trojer, F.jr.'
+_publ_section_title
+;
+ Strukturuntersuchung an einer Hornblende aus dem eklogitischen Gestein
+ von Stramez, suedliche Koralpe
+;
+_journal_name_full
+;
+Tschermaks Mineralogische und Petrographische Mitteilungen (-1978)
+;
+_journal_page_first              233
+_journal_page_last               240
+_journal_volume                  10
+_journal_year                    1965
+_chemical_formula_sum
+'Al2.43 Ca1.5 Fe1.3 H1.9 K0.15 Mg2.64 Na0.86 O24 Si6.48 Ti0.15'
+_chemical_name_systematic
+;
+(Na0.36 K0.15) (Ca0.75 Na0.25)2 (Mg2.64 Fe1.3 Al0.91 Ti0.15) ((Si0.81 Al0.19)8 
+O22.1) (O H)1.9
+;
+_space_group_IT_number           12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 105.48
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   9.86
+_cell_length_b                   18.06999
+_cell_length_c                   5.333
+_cell_volume                     915.712
+_citation_journal_id_ASTM        MPMTAG
+_cod_data_source_file            Walitzi_MPMTAG_1965_1687.cif
+_cod_data_source_block
+H1.9Al2.43Ca1.5Fe1.3K0.15Mg2.64Na0.86O24Si6.48Ti0.15
+_cod_original_formula_sum
+;
+H1.9 Al2.43 Ca1.5 Fe1.3 K0.15 Mg2.64 Na0.86 O24 Si6.48 Ti0.15
+;
+_cod_database_code               1528173
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,y,-z
+-x,-y,-z
+x,-y,z
+x+1/2,y+1/2,z
+-x+1/2,y+1/2,-z
+-x+1/2,-y+1/2,-z
+x+1/2,-y+1/2,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+O5 O-2 0.352 0.138 0.14 1 0.0
+O7 O-2 0.338 0 0.33 1 0.0
+Al5 Al+3 0.295 0.173 0.85 0.19 0.0
+Fe2 Fe+3 0 0.088 0.5 0.03 0.0
+Fe1 Fe+2 0 0.088 0.5 0.08 0.0
+Si2 Si+4 0.295 0.173 0.85 0.81 0.0
+K1 K+1 0.5 0 0 0.15 0.0
+Fe5 Fe+2 0 0 0 0.32 0.0
+Mg2 Mg+2 0 0.177 0 0.5 0.0
+Na1 Na+1 0 0.28 0.5 0.25 0.0
+Ti2 Ti+4 0 0.177 0 0.03 0.0
+O2 O-2 0.109 0 0.71 1 0.0
+Fe6 Fe+3 0 0 0 0.16 0.0
+Al4 Al+3 0.284 0.086 0.34 0.19 0.0
+Na2 Na+1 0.5 0 0 0.36 0.0
+Si1 Si+4 0.284 0.086 0.34 0.81 0.0
+Al1 Al+3 0 0.088 0.5 0.23 0.0
+Ca1 Ca+2 0 0.28 0.5 0.75 0.0
+Fe3 Fe+2 0 0.177 0 0.2 0.0
+Mg1 Mg+2 0 0.088 0.5 0.63 0.0
+Fe4 Fe+3 0 0.177 0 0.1 0.0
+O3 O-2 0.112 0.175 0.71 1 0.0
+Mg3 Mg+2 0 0 0 0.38 0.0
+Al2 Al+3 0 0.177 0 0.17 0.0
+Ti3 Ti+4 0 0 0 0.03 0.0
+O6 O-2 0.338 0.114 0.65 1 0.0
+O1 O-2 0.105 0.092 0.21 1 0.0
+Ti1 Ti+4 0 0.088 0.5 0.03 0.0
+O4 O-2 0.371 0.25 0.79 1 0.0
+Al3 Al+3 0 0 0 0.11 0.0

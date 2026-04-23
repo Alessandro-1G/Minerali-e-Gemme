@@ -1,0 +1,94 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 21:28:24 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176429 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/8/10/42/8104258.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_8104258
+loop_
+_publ_author_name
+'Mitchell, J.T.'
+'Bloss, F.D.'
+'Gibbs, G.V.'
+_publ_section_title
+;
+ Examination of the actinolite structure and four other C2/m amphiboles
+;
+_journal_name_full
+;
+Zeitschrift fuer Kristallographie, Kristallgeometrie, Kristallphysik, 
+Kristallchemie (-144,1977)
+;
+_journal_page_first              273
+_journal_page_last               300
+_journal_volume                  133
+_journal_year                    1971
+_chemical_formula_sum
+'Al0.4 Ca1.76 Fe3.04 H2 Mg1.88 Mn0.16 Na0.08 O24 Si7.68'
+_chemical_name_systematic
+;
+Na.08 Ca1.76 Mn.16 Mg1.88 Fe3.04 Al.40 Si7.68 O22 (O H)2
+;
+_space_group_IT_number           12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 104.64
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   9.891
+_cell_length_b                   18.2
+_cell_length_c                   5.305
+_cell_volume                     923.980
+_citation_journal_id_ASTM        ZEKGAX
+_cod_data_source_file            Mitchell_ZEKGAX_1971_353.cif
+_cod_data_source_block           H2Al0.4Ca1.76Fe3.04Mg1.88Mn0.16Na0.08O24Si7.68
+_cod_original_cell_volume        923.9803
+_cod_original_formula_sum
+'H2 Al0.4 Ca1.76 Fe3.04 Mg1.88 Mn0.16 Na0.08 O24 Si7.68'
+_cod_database_code               8104258
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,y,-z
+-x,-y,-z
+x,-y,z
+x+1/2,y+1/2,z
+-x+1/2,y+1/2,-z
+-x+1/2,-y+1/2,-z
+x+1/2,-y+1/2,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Na1 Na+1 0 0.2769 0.5 0.04 0.0
+Mg1 Mg+2 0 0.08874 0.5 0.39 0.0
+Mg3 Mg+2 0 0 0 0.42 0.0
+Si2 Si+4 0.2895 0.17054 0.8022 1 0.0
+O5 O-2 0.3457 0.1335 0.0939 1 0.0
+O6 O-2 0.3432 0.1187 0.5841 1 0.0
+O3 O-2 0.1114 0 0.7129 1 0.0
+Fe1 Fe+2 0 0.08874 0.5 0.61 0.0
+Al1 Al+3 0 0.17857 0 0.04 0.0
+Fe3 Fe+2 0 0 0 0.58 0.0
+Mn1 Mn+2 0 0.2769 0.5 0.08 0.0
+Si1 Si+4 0.2807 0.08399 0.2943 0.92 0.0
+Fe2 Fe+2 0 0.17857 0 0.46 0.0
+Fe4 Fe+3 0 0.17857 0 0.16 0.0
+Al2 Al+3 0.2807 0.08399 0.2943 0.08 0.0
+Ca1 Ca+2 0 0.2769 0.5 0.88 0.0
+O1 O-2 0.1118 0.0874 0.2141 1 0.0
+O4 O-2 0.3675 0.2462 0.7906 1 0.0
+O2 O-2 0.1209 0.173 0.724 1 0.0
+O7 O-2 0.3349 0 0.2914 1 0.0
+Mg2 Mg+2 0 0.17857 0 0.34 0.0

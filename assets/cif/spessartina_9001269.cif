@@ -1,0 +1,212 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-08-07 20:09:39 +0300 (Wed, 07 Aug 2024) $
+#$Revision: 294031 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/00/12/9001269.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9001269
+loop_
+_publ_author_name
+'Smyth, J. R.'
+'Madel, R. E.'
+'McCormick, T. C.'
+'Munoz, J. L.'
+'Rossman, G. R.'
+_publ_section_title
+;
+ Crystal-structure refinement of a F-bearing spessartine garnet
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              314
+_journal_page_last               318
+_journal_volume                  75
+_journal_year                    1990
+_chemical_formula_sum
+'Al2.03 Ca0.06 F0.96 Fe0.39 H0.36 Mn2.67 O11.04 Si2.7'
+_chemical_name_mineral           Spessartine
+_space_group_IT_number           230
+_symmetry_space_group_name_Hall  '-I 4bd 2c 3'
+_symmetry_space_group_name_H-M   'I a -3 d'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   11.628
+_cell_length_b                   11.628
+_cell_length_c                   11.628
+_cell_volume                     1572.226
+_database_code_amcsd             0001299
+_exptl_crystal_density_diffrn    4.197
+_cod_original_formula_sum
+'Mn2.67 Fe.39 Ca.06 Al2.03 Si2.7 O11.04 F.96 H.36'
+_cod_database_code               9001269
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,1/2+z
+z,1/2-x,1/2+y
+1/2+z,-x,+y
+-y,1/2+z,1/2-x
+1/2-y,+z,-x
+x,1/2-y,1/2+z
+1/2+x,-y,+z
+-z,1/2+x,1/2-y
+1/2-z,+x,-y
+y,1/2-z,1/2+x
+1/2+y,-z,+x
+-x,1/2+y,1/2-z
+1/2-x,+y,-z
+3/4+x,1/4-z,3/4-y
+1/4+x,3/4-z,1/4-y
+3/4-z,1/4+y,3/4+x
+1/4-z,3/4+y,1/4+x
+3/4+y,1/4-x,3/4-z
+1/4+y,3/4-x,1/4-z
+3/4-x,1/4+z,3/4+y
+1/4-x,3/4+z,1/4+y
+3/4+z,1/4-y,3/4-x
+1/4+z,3/4-y,1/4-x
+3/4-y,1/4+x,3/4+z
+1/4-y,3/4+x,1/4+z
+1/4+x,1/4+z,1/4+y
+3/4+x,3/4+z,3/4+y
+1/4-z,1/4-y,1/4-x
+3/4-z,3/4-y,3/4-x
+1/4+y,1/4+x,1/4+z
+3/4+y,3/4+x,3/4+z
+1/4-x,1/4-z,1/4-y
+3/4-x,3/4-z,3/4-y
+1/4+z,1/4+y,1/4+x
+3/4+z,3/4+y,3/4+x
+1/4-y,1/4-x,1/4-z
+3/4-y,3/4-x,3/4-z
+1/2+z,x,1/2-y
++z,1/2+x,-y
+1/2-y,-z,1/2+x
+-y,1/2-z,+x
+1/2+x,y,1/2-z
++x,1/2+y,-z
+1/2-z,-x,1/2+y
+-z,1/2-x,+y
+1/2+y,z,1/2-x
++y,1/2+z,-x
+1/2-x,-y,1/2+z
+-x,1/2-y,+z
+1/2-z,1/2+x,y
+-z,+x,1/2+y
+1/2+y,1/2-z,-x
++y,-z,1/2-x
+1/2-x,1/2+y,z
+-x,+y,1/2+z
+1/2+z,1/2-x,-y
++z,-x,1/2-y
+1/2-y,1/2+z,x
+-y,+z,1/2+x
+1/2+x,1/2-y,-z
++x,-y,1/2-z
+3/4-x,3/4+z,1/4-y
+1/4-x,1/4+z,3/4-y
+3/4+z,3/4-y,1/4+x
+1/4+z,1/4-y,3/4+x
+3/4-y,3/4+x,1/4-z
+1/4-y,1/4+x,3/4-z
+3/4+x,3/4-z,1/4+y
+1/4+x,1/4-z,3/4+y
+3/4-z,3/4+y,1/4-x
+1/4-z,1/4+y,3/4-x
+3/4+y,3/4-x,1/4+z
+1/4+y,1/4-x,3/4+z
+1/4-x,3/4-z,3/4+y
+3/4-x,1/4-z,1/4+y
+1/4+z,3/4+y,3/4-x
+3/4+z,1/4+y,1/4-x
+1/4-y,3/4-x,3/4+z
+3/4-y,1/4-x,1/4+z
+1/4+x,3/4+z,3/4-y
+3/4+x,1/4+z,1/4-y
+1/4-z,3/4-y,3/4+x
+3/4-z,1/4-y,1/4+x
+1/4+y,3/4+x,3/4-z
+3/4+y,1/4+x,1/4-z
+-z,-x,-y
+1/2-z,1/2-x,1/2-y
+y,z,x
+1/2+y,1/2+z,1/2+x
+-x,-y,-z
+1/2-x,1/2-y,1/2-z
+z,x,y
+1/2+z,1/2+x,1/2+y
+-y,-z,-x
+1/2-y,1/2-z,1/2-x
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Mn 0.00452 0.00849 0.00849 0.00000 0.00000 0.00151
+Fe1 0.00452 0.00849 0.00849 0.00000 0.00000 0.00151
+Ca 0.00452 0.00849 0.00849 0.00000 0.00000 0.00151
+Al1 0.00521 0.00521 0.00521 -0.00052 -0.00052 -0.00052
+Fe2 0.00521 0.00521 0.00521 -0.00052 -0.00052 -0.00052
+Si 0.00569 0.00418 0.00418 0.00000 0.00000 0.00000
+Al2 0.00569 0.00418 0.00418 0.00000 0.00000 0.00000
+O 0.00904 0.00781 0.00658 -0.00014 -0.00027 -0.00096
+F 0.00904 0.00781 0.00658 -0.00014 -0.00027 -0.00096
+O-H 0.00904 0.00781 0.00658 -0.00014 -0.00027 -0.00096
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Mn 0.12500 0.00000 0.25000 0.89000
+Fe1 0.12500 0.00000 0.25000 0.09000
+Ca 0.12500 0.00000 0.25000 0.02000
+Al1 0.00000 0.00000 0.00000 0.94000
+Fe2 0.00000 0.00000 0.00000 0.06000
+Si 0.37500 0.00000 0.25000 0.90000
+Al2 0.37500 0.00000 0.25000 0.05000
+O 0.03360 0.04810 0.65200 0.89000
+F 0.03360 0.04810 0.65200 0.08000
+O-H 0.03360 0.04810 0.65200 0.03000
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.10.1
+Id: cif_fix_AMCSD_aniso_labels 10200 2024-08-01 14:09:44Z saulius
+;
+2024-08-02T12:20:00+03:00
+;Changed the following '_atom_site_aniso_label' values:
+'OH' -> 'O-H'
+;
+2
+;cod-tools version 3.10.1
+Id: cif_fix_AMCSD_atom_labels 10224 2024-08-07 11:09:31Z saulius
+;
+2024-08-07T19:38:10+03:00
+;Changed the following '_atom_site_label' values:
+the first duplicated label 'Fe'  converted to 'Fe1'
+duplicated label 'Fe' at index 4 converted to 'Fe2'
+the first duplicated label 'Al'  converted to 'Al1'
+duplicated label 'Al' at index 6 converted to 'Al2'
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0001299

@@ -1,0 +1,137 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 21:28:24 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176429 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/52/18/1521821.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1521821
+loop_
+_publ_author_name
+'Rastsvetaeva, R.K.'
+'Ekimenkova, I.A.'
+'Pekov, I.V.'
+_publ_section_title
+;
+ Crystal structure of a new Ca-rich analog of eudialyte
+;
+_journal_name_full               'Doklady Akad. Nauk'
+_journal_page_first              636
+_journal_page_last               638
+_journal_volume                  368
+_journal_year                    1999
+_chemical_formula_sum
+'Ca9.15 Ce0.08 Cl0.21 Fe2.11 H8.54 Hf0.05 Mn0.22 Na10.57 Nb0.58 O79.2 Si25.2 Ti0.05 Zr3.05'
+_chemical_name_systematic
+;
+Ca6 Zr3 (Si1.2 Mn0.22 Nb0.58) (Fe2.11 Ti0.05 Zr0.05 Hf0.05) (Na10.57 Ca3.15 
+Ce0.08) (Si24 O72) O1.71 (O H)2.44 Cl0.21 (H2 O)3.05
+;
+_space_group_IT_number           160
+_symmetry_space_group_name_Hall  'R 3 -2"'
+_symmetry_space_group_name_H-M   'R 3 m :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   14.255
+_cell_length_b                   14.255
+_cell_length_c                   30.17
+_cell_volume                     5309.338
+_citation_journal_id_ASTM        DAKNEQ
+_cod_data_source_file            Rastsvetaeva_DAKNEQ_1999_674.cif
+_cod_data_source_block
+H8.54Ca9.15Ce0.08Cl0.21Fe2.11Hf0.05Mn0.22Na10.57Nb0.58O79.2Si25.2Ti0.05Zr3.05
+_cod_original_formula_sum
+;
+H8.54 Ca9.15 Ce0.08 Cl0.21 Fe2.11 Hf0.05 Mn0.22 Na10.57 Nb0.58 O79.2 Si25.2 
+Ti0.05 Zr3.05
+;
+_cod_database_code               1521821
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+-x+y,-x,z
+-y,-x,z
+x,x-y,z
+-x+y,y,z
+x+2/3,y+1/3,z+1/3
+-y+2/3,x-y+1/3,z+1/3
+-x+y+2/3,-x+1/3,z+1/3
+-y+2/3,-x+1/3,z+1/3
+x+2/3,x-y+1/3,z+1/3
+-x+y+2/3,y+1/3,z+1/3
+x+1/3,y+2/3,z+2/3
+-y+1/3,x-y+2/3,z+2/3
+-x+y+1/3,-x+2/3,z+2/3
+-y+1/3,-x+2/3,z+2/3
+x+1/3,x-y+2/3,z+2/3
+-x+y+1/3,y+2/3,z+2/3
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Hf1 Hf+4 0.5217 0.4783 -0.0026 0.0167 0.0
+O1 O-2 0.1821 0.3642 0.0275 1 0.0
+O7 O-2 0.1816 0.0908 0.1318 1 0.0
+Cl1 Cl-1 0 0 0.247 0.21 0.0
+O23 O-2 0 0 0.1943 0.79 0.0
+Si2 Si+4 0.1412 0.0706 0.0819 1 0.0
+Ca1 Ca+2 0.0005 0.2606 -0.0005 1 0.0
+Si3 Si+4 0.0569 0.3272 0.2367 1 0.0
+Zr1 Zr+4 0.331 0.1655 0.1668 1 0.0
+O10 O-2 0.6037 0.3963 0.257 1 0.0
+O8 O-2 0.0999 0.379 0.1063 1 0.0
+O25 O-2 0.6013 0.3987 -0.0041 1 0.0
+O5 O-2 0.467 0.2335 0.204 1 0.0
+O11 O-2 0.0608 0.1216 0.0805 1 0.0
+O18 O-2 0.2088 0.6044 0.2632 1 0.0
+O9 O-2 0.4356 0.2178 0.2897 1 0.0
+Ti1 Ti+4 0.5217 0.4783 -0.0026 0.0167 0.0
+O3 O-2 0.4124 0.0371 0.045 1 0.0
+O21 O-2 0.437 0.563 0.001 0.33 0.0
+O4 O-2 0.2555 0.0287 0.2078 1 0.0
+O12 O-2 0.042 0.6107 0.2265 1 0.0
+Fe1 Fe+2 0.4886 0.5116 0.0026 0.42 0.0
+Si8 Si+4 0.3333 0.6667 0.0408 0.027 0.0
+Na7 Na+1 0.576 0.424 0.1626 0.23 0.0
+Na5 Na+1 0.4482 0.2241 0.0513 0.923 0.0
+O2 O-2 0.1791 0.3582 0.2208 1 0.0
+Mn1 Mn+2 0.3333 0.6667 0.0408 0.223 0.0
+O16 O-2 0.4935 0.5065 0.1164 1 0.0
+Na6 Na+1 0.5617 0.4383 0.1774 0.77 0.0
+Fe2 Fe+2 0.5217 0.4783 -0.0026 0.283 0.0
+Si6 Si+4 0.0834 0.5417 0.2587 1 0.0
+Na1 Na+1 0.265 0.53 0.1855 0.3 0.0
+O17 O-2 0.2739 0.5478 0.0826 1 0.0
+Si9 Si+4 0.3333 0.6667 0.088 0.75 0.0
+Na3 Na+1 0.1076 0.2152 0.1549 0.76 0.0
+O15 O-2 0.0445 0.3005 0.2882 1 0.0
+Ca3 Ca+2 0.4482 0.2241 0.0513 0.05 0.0
+Si1 Si+4 -0.0072 0.6033 0.0973 1 0.0
+Zr2 Zr+4 0.5217 0.4783 -0.0026 0.0167 0.0
+O22 O-2 0 0 0.32 0.25 0.0
+Ca2 Ca+2 0.1898 0.0949 0.2912 1 0.0
+O13 O-2 0.0308 0.5154 0.3051 1 0.0
+Ce1 Ce+3 0.4482 0.2241 0.0513 0.027 0.0
+O14 O-2 0.3977 0.2995 0.1285 1 0.0
+O19 O-2 0.3333 0.6667 0.14 0.75 0.0
+Si5 Si+4 0.527 0.2635 0.2512 1 0.0
+Si4 Si+4 0.2077 0.4154 0.0772 1 0.0
+O6 O-2 0.2238 0.1119 0.0434 1 0.0
+Nb1 Nb+5 0.3333 0.6667 0.2932 0.58 0.0
+Na2 Na+1 0.18 0.59 0.1489 0.3 0.0
+Si7 Si+4 0.3333 0.6667 0.2408 0.42 0.0
+O24 O-2 0.6667 0.3333 0.102 1 0.0
+Na4 Na+1 0.087 0.174 0.1624 0.24 0.0
+O20 O-2 0.3333 0.6667 0.1907 0.42 0.0

@@ -1,0 +1,912 @@
+[
+  {
+    "nome": "Quarzo",
+    "query": "quartz",
+    "codId": "1011097",
+    "status": "ok",
+    "note": "COD 1011097 · struttura CIF diretta"
+  },
+  {
+    "nome": "Ametista",
+    "query": "quartz",
+    "codId": "1011097",
+    "status": "ok",
+    "note": "COD 1011097 · struttura CIF diretta"
+  },
+  {
+    "nome": "Topazio",
+    "query": "topaz",
+    "codId": "1544604",
+    "status": "ok",
+    "note": "COD 1544604 · struttura CIF diretta"
+  },
+  {
+    "nome": "Feldspati",
+    "query": "orthoclase",
+    "codId": "9013308",
+    "status": "ok",
+    "note": "COD 9013308 · struttura CIF diretta"
+  },
+  {
+    "nome": "Ortoclasio",
+    "query": "orthoclase",
+    "codId": "1011205",
+    "status": "ok",
+    "note": "COD 1011205 · struttura CIF diretta"
+  },
+  {
+    "nome": "Albite",
+    "query": "Albite",
+    "codId": "1544370",
+    "status": "ok",
+    "note": "COD 1544370 · struttura CIF diretta"
+  },
+  {
+    "nome": "Anortite",
+    "query": "anorthite",
+    "codId": "1000034",
+    "status": "ok",
+    "note": "COD 1000034 · struttura CIF diretta"
+  },
+  {
+    "nome": "Nefelina",
+    "query": "nepheline",
+    "codId": "1008753",
+    "status": "ok",
+    "note": "COD 1008753 · struttura CIF diretta"
+  },
+  {
+    "nome": "Leucite",
+    "query": "Leucite",
+    "codId": "1010431",
+    "status": "ok",
+    "note": "COD 1010431 · struttura CIF diretta"
+  },
+  {
+    "nome": "Sodalite",
+    "query": "Sodalite",
+    "codId": "1000028",
+    "status": "ok",
+    "note": "COD 1000028 · struttura CIF diretta"
+  },
+  {
+    "nome": "Lazurite",
+    "query": "Lazurite",
+    "codId": "9011781",
+    "status": "ok",
+    "note": "COD 9011781 · struttura CIF diretta"
+  },
+  {
+    "nome": "Olivina",
+    "query": "forsterite",
+    "codId": "1544616",
+    "status": "ok",
+    "note": "COD 1544616 · struttura CIF diretta"
+  },
+  {
+    "nome": "Granati",
+    "query": "almandine garnet",
+    "codId": "9001422",
+    "status": "ok",
+    "note": "COD 9001422 · struttura CIF diretta"
+  },
+  {
+    "nome": "Almandino",
+    "query": "almandine garnet",
+    "codId": "9001423",
+    "status": "ok",
+    "note": "COD 9001423 · struttura CIF diretta"
+  },
+  {
+    "nome": "Piropo",
+    "query": "pyrope garnet",
+    "codId": "9000213",
+    "status": "ok",
+    "note": "COD 9000213 · struttura CIF diretta"
+  },
+  {
+    "nome": "Grossularia",
+    "query": "grossular garnet",
+    "codId": "1539533",
+    "status": "ok",
+    "note": "COD 1539533 · struttura CIF diretta"
+  },
+  {
+    "nome": "Andradite",
+    "query": "Andradite",
+    "codId": "9000239",
+    "status": "ok",
+    "note": "COD 9000239 · struttura CIF diretta"
+  },
+  {
+    "nome": "Spessartina",
+    "query": "spessartine garnet",
+    "codId": "9001269",
+    "status": "ok",
+    "note": "COD 9001269 · struttura CIF diretta"
+  },
+  {
+    "nome": "Epidoto",
+    "query": "epidote",
+    "codId": "1527300",
+    "status": "ok",
+    "note": "COD 1527300 · struttura CIF diretta"
+  },
+  {
+    "nome": "Zoisite",
+    "query": "Zoisite",
+    "codId": "1525919",
+    "status": "ok",
+    "note": "COD 1525919 · struttura CIF diretta"
+  },
+  {
+    "nome": "Vesuvianite",
+    "query": "Vesuvianite",
+    "codId": "9001022",
+    "status": "ok",
+    "note": "COD 9001022 · struttura CIF diretta"
+  },
+  {
+    "nome": "Tormalina",
+    "query": "tourmaline",
+    "codId": "1531368",
+    "status": "ok",
+    "note": "COD 1531368 · struttura CIF diretta"
+  },
+  {
+    "nome": "Elbaite",
+    "query": "elbaite",
+    "codId": "1535108",
+    "status": "ok",
+    "note": "COD 1535108 · struttura CIF diretta"
+  },
+  {
+    "nome": "Dravite",
+    "query": "dravite",
+    "codId": "1534015",
+    "status": "ok",
+    "note": "COD 1534015 · struttura CIF diretta"
+  },
+  {
+    "nome": "Schorl",
+    "query": "schorl",
+    "codId": "1531372",
+    "status": "ok",
+    "note": "COD 1531372 · struttura CIF diretta"
+  },
+  {
+    "nome": "Berillo",
+    "query": "beryl",
+    "codId": "1010541",
+    "status": "ok",
+    "note": "COD 1010541 · struttura CIF diretta"
+  },
+  {
+    "nome": "Topazolite",
+    "query": "andradite",
+    "codId": "9000239",
+    "status": "ok",
+    "note": "COD 9000239 · struttura CIF diretta"
+  },
+  {
+    "nome": "Pirosseni",
+    "query": "pyroxene",
+    "codId": "1000035",
+    "status": "ok",
+    "note": "COD 1000035 · struttura CIF diretta"
+  },
+  {
+    "nome": "Augite",
+    "query": "Augite",
+    "codId": "9005843",
+    "status": "ok",
+    "note": "COD 9005843 · struttura CIF diretta"
+  },
+  {
+    "nome": "Diopside",
+    "query": "Diopside",
+    "codId": "1000007",
+    "status": "ok",
+    "note": "COD 1000007 · struttura CIF diretta"
+  },
+  {
+    "nome": "Enstatite",
+    "query": "Enstatite",
+    "codId": "1000047",
+    "status": "ok",
+    "note": "COD 1000047 · struttura CIF diretta"
+  },
+  {
+    "nome": "Anfiboli",
+    "query": "hornblende",
+    "codId": "1528173",
+    "status": "ok",
+    "note": "COD 1528173 · struttura CIF diretta"
+  },
+  {
+    "nome": "Orneblenda",
+    "query": "hornblende",
+    "codId": "1528173",
+    "status": "ok",
+    "note": "COD 1528173 · struttura CIF diretta"
+  },
+  {
+    "nome": "Tremolite",
+    "query": "Tremolite",
+    "codId": "1011146",
+    "status": "ok",
+    "note": "COD 1011146 · struttura CIF diretta"
+  },
+  {
+    "nome": "Actinolite",
+    "query": "Actinolite",
+    "codId": "8104258",
+    "status": "ok",
+    "note": "COD 8104258 · struttura CIF diretta"
+  },
+  {
+    "nome": "Talco",
+    "query": "Talco",
+    "codId": "1540238",
+    "status": "ok",
+    "note": "COD 1540238 · struttura CIF diretta"
+  },
+  {
+    "nome": "Serpentino",
+    "query": "lizardite",
+    "codId": "9001882",
+    "status": "ok",
+    "note": "COD 9001882 · struttura CIF diretta"
+  },
+  {
+    "nome": "Caolinite",
+    "query": "kaolinite",
+    "codId": "1011045",
+    "status": "ok",
+    "note": "COD 1011045 · struttura CIF diretta"
+  },
+  {
+    "nome": "Illite",
+    "query": "Illite",
+    "codId": "2300189",
+    "status": "ok",
+    "note": "COD 2300189 · struttura CIF diretta"
+  },
+  {
+    "nome": "Clorite",
+    "query": "clinochlore",
+    "codId": "1541186",
+    "status": "ok",
+    "note": "COD 1541186 · struttura CIF diretta"
+  },
+  {
+    "nome": "Diamante",
+    "query": "Diamante",
+    "codId": "4031188",
+    "status": "ok",
+    "note": "COD 4031188 · struttura CIF diretta"
+  },
+  {
+    "nome": "Acquamarina",
+    "query": "beryl",
+    "codId": "1010541",
+    "status": "ok",
+    "note": "COD 1010541 · struttura CIF diretta"
+  },
+  {
+    "nome": "Morganite",
+    "query": "beryl",
+    "codId": "1010541",
+    "status": "ok",
+    "note": "COD 1010541 · struttura CIF diretta"
+  },
+  {
+    "nome": "Eliodoro",
+    "query": "beryl",
+    "codId": "1010541",
+    "status": "ok",
+    "note": "COD 1010541 · struttura CIF diretta"
+  },
+  {
+    "nome": "Smeraldo",
+    "query": "beryl",
+    "codId": "1010541",
+    "status": "ok",
+    "note": "COD 1010541 · struttura CIF diretta"
+  },
+  {
+    "nome": "Rubino",
+    "query": "corundum",
+    "codId": "1000017",
+    "status": "ok",
+    "note": "COD 1000017 · struttura CIF diretta"
+  },
+  {
+    "nome": "Zaffiro",
+    "query": "corundum",
+    "codId": "1000017",
+    "status": "ok",
+    "note": "COD 1000017 · struttura CIF diretta"
+  },
+  {
+    "nome": "Tanzanite",
+    "query": "zoisite",
+    "codId": "1525919",
+    "status": "ok",
+    "note": "COD 1525919 · struttura CIF diretta"
+  },
+  {
+    "nome": "Iolite",
+    "query": "cordierite",
+    "codId": "1525902",
+    "status": "ok",
+    "note": "COD 1525902 · struttura CIF diretta"
+  },
+  {
+    "nome": "Peridoto",
+    "query": "forsterite",
+    "codId": "1544616",
+    "status": "ok",
+    "note": "COD 1544616 · struttura CIF diretta"
+  },
+  {
+    "nome": "Spinello",
+    "query": "spinel",
+    "codId": "1001227",
+    "status": "ok",
+    "note": "COD 1001227 · struttura CIF diretta"
+  },
+  {
+    "nome": "Zircone",
+    "query": "zircon",
+    "codId": "1000423",
+    "status": "ok",
+    "note": "COD 1000423 · struttura CIF diretta"
+  },
+  {
+    "nome": "Crisoberillo",
+    "query": "chrysoberyl",
+    "codId": "1011197",
+    "status": "ok",
+    "note": "COD 1011197 · struttura CIF diretta"
+  },
+  {
+    "nome": "Alessandrite",
+    "query": "chrysoberyl",
+    "codId": "1011197",
+    "status": "ok",
+    "note": "COD 1011197 · struttura CIF diretta"
+  },
+  {
+    "nome": "Kunzite",
+    "query": "spodumene",
+    "codId": "1011191",
+    "status": "ok",
+    "note": "COD 1011191 · struttura CIF diretta"
+  },
+  {
+    "nome": "Rodonite",
+    "query": "rhodonite",
+    "codId": "1521752",
+    "status": "ok",
+    "note": "COD 1521752 · struttura CIF diretta"
+  },
+  {
+    "nome": "Rodocrosite",
+    "query": "rhodochrosite",
+    "codId": "1011228",
+    "status": "ok",
+    "note": "COD 1011228 · struttura CIF diretta"
+  },
+  {
+    "nome": "Prehnite",
+    "query": "Prehnite",
+    "codId": "1544600",
+    "status": "ok",
+    "note": "COD 1544600 · struttura CIF diretta"
+  },
+  {
+    "nome": "Sugilite",
+    "query": "sugilite",
+    "codId": "1544679",
+    "status": "ok",
+    "note": "COD 1544679 · struttura CIF diretta"
+  },
+  {
+    "nome": "Giada",
+    "query": "jadeite",
+    "codId": "9000143",
+    "status": "ok",
+    "note": "COD 9000143 · materiale aggregato/non pienamente cristallino: uso struttura rappresentativa"
+  },
+  {
+    "nome": "Giadeite",
+    "query": "jadeite",
+    "codId": "9000143",
+    "status": "ok",
+    "note": "COD 9000143 · struttura CIF diretta"
+  },
+  {
+    "nome": "Nefrite",
+    "query": "actinolite",
+    "codId": "8104258",
+    "status": "ok",
+    "note": "COD 8104258 · struttura CIF diretta"
+  },
+  {
+    "nome": "Pietra di luna",
+    "query": "adularia",
+    "codId": "9000161",
+    "status": "ok",
+    "note": "COD 9000161 · struttura CIF diretta"
+  },
+  {
+    "nome": "Labradorite",
+    "query": "Labradorite",
+    "codId": "9000744",
+    "status": "ok",
+    "note": "COD 9000744 · struttura CIF diretta"
+  },
+  {
+    "nome": "Occhio di tigre",
+    "query": "quartz",
+    "codId": "1011097",
+    "status": "ok",
+    "note": "COD 1011097 · materiale aggregato/non pienamente cristallino: uso struttura rappresentativa"
+  },
+  {
+    "nome": "Occhio di falco",
+    "query": "quartz",
+    "codId": "1011097",
+    "status": "ok",
+    "note": "COD 1011097 · materiale aggregato/non pienamente cristallino: uso struttura rappresentativa"
+  },
+  {
+    "nome": "Amazonite",
+    "query": "microcline",
+    "codId": "1529639",
+    "status": "ok",
+    "note": "COD 1529639 · struttura CIF diretta"
+  },
+  {
+    "nome": "Larimar",
+    "query": "pectolite",
+    "codId": "9008134",
+    "status": "ok",
+    "note": "COD 9008134 · struttura CIF diretta"
+  },
+  {
+    "nome": "Charoite",
+    "query": "Charoite",
+    "codId": "9015238",
+    "status": "ok",
+    "note": "COD 9015238 · struttura CIF diretta"
+  },
+  {
+    "nome": "Diaspro",
+    "query": "jasper",
+    "codId": "1502887",
+    "status": "ok",
+    "note": "COD 1502887 · materiale aggregato/non pienamente cristallino: uso struttura rappresentativa"
+  },
+  {
+    "nome": "Corniola",
+    "query": "quartz",
+    "codId": "1011097",
+    "status": "ok",
+    "note": "COD 1011097 · materiale aggregato/non pienamente cristallino: uso struttura rappresentativa"
+  },
+  {
+    "nome": "Crisoprasio",
+    "query": "quartz",
+    "codId": "1011097",
+    "status": "ok",
+    "note": "COD 1011097 · materiale aggregato/non pienamente cristallino: uso struttura rappresentativa"
+  },
+  {
+    "nome": "Turchese",
+    "query": "turquoise",
+    "codId": "9008099",
+    "status": "ok",
+    "note": "COD 9008099 · struttura CIF diretta"
+  },
+  {
+    "nome": "Opale",
+    "query": "opal",
+    "codId": "1010028",
+    "status": "ok",
+    "note": "COD 1010028 · materiale aggregato/non pienamente cristallino: uso struttura rappresentativa"
+  },
+  {
+    "nome": "Onice",
+    "query": "quartz",
+    "codId": "1011097",
+    "status": "ok",
+    "note": "COD 1011097 · materiale aggregato/non pienamente cristallino: uso struttura rappresentativa"
+  },
+  {
+    "nome": "Agata",
+    "query": "quartz",
+    "codId": "1011097",
+    "status": "ok",
+    "note": "COD 1011097 · materiale aggregato/non pienamente cristallino: uso struttura rappresentativa"
+  },
+  {
+    "nome": "Lapislazzuli",
+    "query": "lazurite",
+    "codId": "1532078",
+    "status": "ok",
+    "note": "COD 1532078 · materiale aggregato/non pienamente cristallino: uso struttura rappresentativa"
+  },
+  {
+    "nome": "Ossidiana",
+    "query": "quartz",
+    "codId": "1009000",
+    "status": "ok",
+    "note": "COD 1009000 · materiale aggregato/non pienamente cristallino: uso struttura rappresentativa"
+  },
+  {
+    "nome": "Malachite",
+    "query": "malachite",
+    "codId": "5000043",
+    "status": "ok",
+    "note": "COD 5000043 · struttura CIF diretta"
+  },
+  {
+    "nome": "Ematite",
+    "query": "hematite",
+    "codId": "1011240",
+    "status": "ok",
+    "note": "COD 1011240 · struttura CIF diretta"
+  },
+  {
+    "nome": "Magnetite",
+    "query": "magnetite",
+    "codId": "1011032",
+    "status": "ok",
+    "note": "COD 1011032 · struttura CIF diretta"
+  },
+  {
+    "nome": "Corindone",
+    "query": "corundum",
+    "codId": "1000017",
+    "status": "ok",
+    "note": "COD 1000017 · struttura CIF diretta"
+  },
+  {
+    "nome": "Cromite",
+    "query": "chromite",
+    "codId": "1526439",
+    "status": "ok",
+    "note": "COD 1526439 · struttura CIF diretta"
+  },
+  {
+    "nome": "Ilmenite",
+    "query": "Ilmenite",
+    "codId": "1011033",
+    "status": "ok",
+    "note": "COD 1011033 · struttura CIF diretta"
+  },
+  {
+    "nome": "Rutilo",
+    "query": "rutile",
+    "codId": "1001235",
+    "status": "ok",
+    "note": "COD 1001235 · struttura CIF diretta"
+  },
+  {
+    "nome": "Goethite",
+    "query": "Goethite",
+    "codId": "1008766",
+    "status": "ok",
+    "note": "COD 1008766 · struttura CIF diretta"
+  },
+  {
+    "nome": "Bauxite",
+    "query": "gibbsite",
+    "codId": "1011081",
+    "status": "ok",
+    "note": "COD 1011081 · materiale aggregato/non pienamente cristallino: uso struttura rappresentativa"
+  },
+  {
+    "nome": "Pirite",
+    "query": "pyrite",
+    "codId": "1010025",
+    "status": "ok",
+    "note": "COD 1010025 · struttura CIF diretta"
+  },
+  {
+    "nome": "Galena",
+    "query": "Galena",
+    "codId": "1010748",
+    "status": "ok",
+    "note": "COD 1010748 · struttura CIF diretta"
+  },
+  {
+    "nome": "Sfalerite",
+    "query": "sphalerite",
+    "codId": "1011232",
+    "status": "ok",
+    "note": "COD 1011232 · struttura CIF diretta"
+  },
+  {
+    "nome": "Calcopirite",
+    "query": "chalcopyrite",
+    "codId": "1010929",
+    "status": "ok",
+    "note": "COD 1010929 · struttura CIF diretta"
+  },
+  {
+    "nome": "Bornite",
+    "query": "bornite",
+    "codId": "1540202",
+    "status": "ok",
+    "note": "COD 1540202 · struttura CIF diretta"
+  },
+  {
+    "nome": "Cinnabro",
+    "query": "cinnabar",
+    "codId": "1011368",
+    "status": "ok",
+    "note": "COD 1011368 · struttura CIF diretta"
+  },
+  {
+    "nome": "Realgar",
+    "query": "Realgar",
+    "codId": "4102868",
+    "status": "ok",
+    "note": "COD 4102868 · struttura CIF diretta"
+  },
+  {
+    "nome": "Orpimento",
+    "query": "orpiment",
+    "codId": "9008210",
+    "status": "ok",
+    "note": "COD 9008210 · struttura CIF diretta"
+  },
+  {
+    "nome": "Arsenopirite",
+    "query": "arsenopyrite",
+    "codId": "1010025",
+    "status": "ok",
+    "note": "COD 1010025 · struttura CIF diretta"
+  },
+  {
+    "nome": "Gesso",
+    "query": "gypsum",
+    "codId": "1010981",
+    "status": "ok",
+    "note": "COD 1010981 · struttura CIF diretta"
+  },
+  {
+    "nome": "Anidrite",
+    "query": "anhydrite",
+    "codId": "5000040",
+    "status": "ok",
+    "note": "COD 5000040 · struttura CIF diretta"
+  },
+  {
+    "nome": "Barite",
+    "query": "barite",
+    "codId": "1000037",
+    "status": "ok",
+    "note": "COD 1000037 · struttura CIF diretta"
+  },
+  {
+    "nome": "Celestina",
+    "query": "celestine",
+    "codId": "1010543",
+    "status": "ok",
+    "note": "COD 1010543 · struttura CIF diretta"
+  },
+  {
+    "nome": "Alunite",
+    "query": "Alunite",
+    "codId": "1010965",
+    "status": "ok",
+    "note": "COD 1010965 · struttura CIF diretta"
+  },
+  {
+    "nome": "Calcite",
+    "query": "Calcite",
+    "codId": "1010917",
+    "status": "ok",
+    "note": "COD 1010917 · struttura CIF diretta"
+  },
+  {
+    "nome": "Dolomite",
+    "query": "Dolomite",
+    "codId": "1200014",
+    "status": "ok",
+    "note": "COD 1200014 · struttura CIF diretta"
+  },
+  {
+    "nome": "Magnesite",
+    "query": "magnesite",
+    "codId": "2105963",
+    "status": "ok",
+    "note": "COD 2105963 · struttura CIF diretta"
+  },
+  {
+    "nome": "Siderite",
+    "query": "Siderite",
+    "codId": "1548824",
+    "status": "ok",
+    "note": "COD 1548824 · struttura CIF diretta"
+  },
+  {
+    "nome": "Apatite",
+    "query": "Apatite",
+    "codId": "1010647",
+    "status": "ok",
+    "note": "COD 1010647 · struttura CIF diretta"
+  },
+  {
+    "nome": "Monazite",
+    "query": "Monazite",
+    "codId": "1535854",
+    "status": "ok",
+    "note": "COD 1535854 · struttura CIF diretta"
+  },
+  {
+    "nome": "Vivianite",
+    "query": "vivianite",
+    "codId": "1001782",
+    "status": "ok",
+    "note": "COD 1001782 · struttura CIF diretta"
+  },
+  {
+    "nome": "Halite",
+    "query": "halite",
+    "codId": "1011182",
+    "status": "ok",
+    "note": "COD 1011182 · struttura CIF diretta"
+  },
+  {
+    "nome": "Fluorite",
+    "query": "fluorite",
+    "codId": "1000043",
+    "status": "ok",
+    "note": "COD 1000043 · struttura CIF diretta"
+  },
+  {
+    "nome": "Silvite",
+    "query": "sylvite",
+    "codId": "9003112",
+    "status": "ok",
+    "note": "COD 9003112 · struttura CIF diretta"
+  },
+  {
+    "nome": "Oro",
+    "query": "gold",
+    "codId": "1005036",
+    "status": "ok",
+    "note": "COD 1005036 · struttura CIF diretta"
+  },
+  {
+    "nome": "Argento",
+    "query": "silver",
+    "codId": "1000191",
+    "status": "ok",
+    "note": "COD 1000191 · struttura CIF diretta"
+  },
+  {
+    "nome": "Rame",
+    "query": "copper",
+    "codId": "1000030",
+    "status": "ok",
+    "note": "COD 1000030 · struttura CIF diretta"
+  },
+  {
+    "nome": "Platino",
+    "query": "platinum",
+    "codId": "1000284",
+    "status": "ok",
+    "note": "COD 1000284 · struttura CIF diretta"
+  },
+  {
+    "nome": "Zolfo",
+    "query": "sulfur",
+    "codId": "1001159",
+    "status": "ok",
+    "note": "COD 1001159 · struttura CIF diretta"
+  },
+  {
+    "nome": "Grafite",
+    "query": "graphite",
+    "codId": "1000065",
+    "status": "ok",
+    "note": "COD 1000065 · struttura CIF diretta"
+  },
+  {
+    "nome": "Painite",
+    "query": "Painite",
+    "codId": "9000484",
+    "status": "ok",
+    "note": "COD 9000484 · struttura CIF diretta"
+  },
+  {
+    "nome": "Benitoite",
+    "query": "benitoite",
+    "codId": "1010959",
+    "status": "ok",
+    "note": "COD 1010959 · struttura CIF diretta"
+  },
+  {
+    "nome": "Grandidierite",
+    "query": "grandidierite",
+    "codId": "1531449",
+    "status": "ok",
+    "note": "COD 1531449 · struttura CIF diretta"
+  },
+  {
+    "nome": "Musgravite",
+    "query": "musgravite",
+    "codId": "9009302",
+    "status": "ok",
+    "note": "COD 9009302 · struttura CIF diretta"
+  },
+  {
+    "nome": "Taaffeite",
+    "query": "taaffeite",
+    "codId": "9009301",
+    "status": "ok",
+    "note": "COD 9009301 · struttura CIF diretta"
+  },
+  {
+    "nome": "Jeremejevite",
+    "query": "Jeremejevite",
+    "codId": "9008311",
+    "status": "ok",
+    "note": "COD 9008311 · struttura CIF diretta"
+  },
+  {
+    "nome": "Eudialyte",
+    "query": "eudialyte",
+    "codId": "1521821",
+    "status": "ok",
+    "note": "COD 1521821 · struttura CIF diretta"
+  },
+  {
+    "nome": "Danburite",
+    "query": "danburite",
+    "codId": "1011048",
+    "status": "ok",
+    "note": "COD 1011048 · struttura CIF diretta"
+  },
+  {
+    "nome": "Petalite",
+    "query": "Petalite",
+    "codId": "5910092",
+    "status": "ok",
+    "note": "COD 5910092 · struttura CIF diretta"
+  },
+  {
+    "nome": "Scapolite",
+    "query": "Scapolite",
+    "codId": "9000144",
+    "status": "ok",
+    "note": "COD 9000144 · struttura CIF diretta"
+  },
+  {
+    "nome": "Kyanite",
+    "query": "Kyanite",
+    "codId": "1008755",
+    "status": "ok",
+    "note": "COD 1008755 · struttura CIF diretta"
+  },
+  {
+    "nome": "Andalusite",
+    "query": "Andalusite",
+    "codId": "1010924",
+    "status": "ok",
+    "note": "COD 1010924 · struttura CIF diretta"
+  },
+  {
+    "nome": "Sillimanite",
+    "query": "Sillimanite",
+    "codId": "1011204",
+    "status": "ok",
+    "note": "COD 1011204 · struttura CIF diretta"
+  }
+]

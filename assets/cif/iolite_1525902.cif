@@ -1,0 +1,101 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 21:28:24 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176429 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/52/59/1525902.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1525902
+loop_
+_publ_author_name
+'Malcherek, T.'
+'McCammon, C.'
+'Tazzoli, V.'
+'Ottolini, L.'
+'Domeneghetti, M.C.'
+'Carpenter, M.A.'
+_publ_section_title
+;
+ Structural properties of ferromagnesian cordierites
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              66
+_journal_page_last               79
+_journal_volume                  86
+_journal_year                    2001
+_chemical_formula_sum
+'C0.165 H0.24 Al3.992 Fe0.55 Mg1.464 Na0.05 O18.45 Si4.994'
+_chemical_name_systematic
+;
+(Mg0.732 Fe0.268)2 Na0.05 (Al3.992 Fe0.014 Si4.994) O18  (H2 O)0.12 (C O2)0.165
+;
+_space_group_IT_number           66
+_symmetry_space_group_name_Hall  '-C 2 2c'
+_symmetry_space_group_name_H-M   'C c c m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   17.109
+_cell_length_b                   9.7423
+_cell_length_c                   9.3318
+_cell_volume                     1555.434
+_citation_journal_id_ASTM        AMMIAY
+_cod_data_source_file            Malcherek_AMMIAY_2001_892.cif
+_cod_data_source_block
+C0.165H0.24Al3.992Fe0.55Mg1.464Na0.05O18.45Si4.994
+_cod_original_formula_sum
+;
+C0.165 H0.24 Al3.992 Fe0.55 Mg1.464 Na0.05 O18.45 Si4.994
+;
+_cod_database_code               1525902
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z
+x,-y,-z+1/2
+-x,y,-z+1/2
+-x,-y,-z
+x,y,-z
+-x,y,z-1/2
+x,-y,z-1/2
+x+1/2,y+1/2,z
+-x+1/2,-y+1/2,z
+x+1/2,-y+1/2,-z+1/2
+-x+1/2,y+1/2,-z+1/2
+-x+1/2,-y+1/2,-z
+x+1/2,y+1/2,-z
+-x+1/2,y+1/2,z-1/2
+x+1/2,-y+1/2,z-1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Al2 Al+3 0.0505 0.30745 0 1 0.0
+O2 O-2 0.06196 0.58431 0.34874 1 0.0
+O1 O-2 0.24659 0.89673 0.35854 1 0.0
+Si3 Si+4 0.13514 0.76345 0 1 0.0
+O5 O-2 0.12204 0.18486 0 1 0.0
+Fe1 Fe+2 0.33744 0 0.25 0.268 0.0
+O3 O-2 0.82671 0.69086 0.35815 1 0.0
+Mg1 Mg+2 0.33744 0 0.25 0.732 0.0
+O4 O-2 0.04335 0.7518 0 1 0.0
+Fe2 Fe+2 0.25 0.25 0.25015 0.004 0.0
+C1 C+4 0 0 0.25 0.165 0.0
+O7 O-2 0 0 0.25 0.12 0.0
+Fe3 Fe+2 0 0.5 0.25 0.006 0.0
+Si1 Si+4 0 0.5 0.25 0.994 0.0
+O8 O-2 0.633 0 0.25 0.165 0.0
+Na1 Na+1 0 0 0 0.05 0.0
+Al1 Al+3 0.25 0.25 0.25015 0.996 0.0
+Si2 Si+4 0.19203 0.07828 0 1 0.0
+O6 O-2 0.16429 -0.07918 0 1 0.0

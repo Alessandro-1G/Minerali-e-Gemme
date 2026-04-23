@@ -1,0 +1,103 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 21:28:24 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176429 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/53/40/1534015.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1534015
+loop_
+_publ_author_name
+'Pertlik, F.'
+'Ertl, A.'
+'Schuster, R.'
+'Brandstaetter, F.'
+'Koerner, W.'
+_publ_section_title
+;
+ Na-rich dravite in the marbles from Friesach, Carinthia, Austria:
+ chemistry and crystal structure
+;
+_journal_name_full
+;
+Neues Jahrbuch fuer Mineralogie. Monatshefte (Band=Jahr) (1950-)
+;
+_journal_page_first              277
+_journal_page_last               288
+_journal_volume                  2003
+_journal_year                    2003
+_chemical_formula_sum
+'Al6.18 B3 Ca0.18 F0.12 H3.68 Mg2.82 Na0.66 O30.88 Si6'
+_chemical_name_systematic
+;
+(Na0.66 Ca0.18) (Mg2.46 Al0.54) (Al5.64 Mg0.36) (B O3)3 (Si6 O18) ((O H)3.68 
+F0.12 O0.2)
+;
+_space_group_IT_number           160
+_symmetry_space_group_name_Hall  'R 3 -2"'
+_symmetry_space_group_name_H-M   'R 3 m :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   15.9459
+_cell_length_b                   15.9459
+_cell_length_c                   7.1723
+_cell_volume                     1579.382
+_citation_journal_id_ASTM        NJMMAW
+_cod_data_source_file            Pertlik_NJMMAW_2003_863.cif
+_cod_data_source_block           H3.68Al6.18B3Ca0.18F0.12Mg2.82Na0.66O30.88Si6
+_cod_original_formula_sum
+'H3.68 Al6.18 B3 Ca0.18 F0.12 Mg2.82 Na0.66 O30.88 Si6'
+_cod_database_code               1534015
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+-x+y,-x,z
+-y,-x,z
+x,x-y,z
+-x+y,y,z
+x+2/3,y+1/3,z+1/3
+-y+2/3,x-y+1/3,z+1/3
+-x+y+2/3,-x+1/3,z+1/3
+-y+2/3,-x+1/3,z+1/3
+x+2/3,x-y+1/3,z+1/3
+-x+y+2/3,y+1/3,z+1/3
+x+1/3,y+2/3,z+2/3
+-y+1/3,x-y+2/3,z+2/3
+-x+y+1/3,-x+2/3,z+2/3
+-y+1/3,-x+2/3,z+2/3
+x+1/3,x-y+2/3,z+2/3
+-x+y+1/3,y+2/3,z+2/3
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Mg1 Mg+2 0.72981 0.45962 0.7054 0.82 0.0
+F1 F-1 0 0 0.2242 0.12 0.0
+O5 O-2 0.42534 0.85068 0.5743 1 0.0
+O1 O-2 0 0 0.2242 0.88 0.0
+O7 O-2 0.71495 0.71505 0.9177 1 0.0
+Ca1 Ca+2 0 0 0.7766 0.18 0.0
+O2 O-2 0.93887 0.87774 0.5199 1 0.0
+Si1 Si+4 0.80796 0.8098 0 1 0.0
+Al1 Al+3 0.72981 0.45962 0.7054 0.18 0.0
+O8 O-2 0.78992 0.72907 0.5564 1 0.0
+H1 H+1 0.798 0.596 0.929 1 0.0
+O6 O-2 0.80347 0.81283 0.2218 1 0.0
+Al2 Al+3 0.70208 0.7385 0.3865 0.94 0.0
+O3 O-2 0.90718 0.81436 0.9281 1 0.0
+Na1 Na+1 0 0 0.7766 0.66 0.0
+O4 O-2 0.80081 0.60162 0.8211 1 0.0
+Mg2 Mg+2 0.70208 0.7385 0.3865 0.06 0.0
+B1 B+3 0.8901 0.7802 0.5448 1 0.0

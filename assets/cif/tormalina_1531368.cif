@@ -1,0 +1,106 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 21:28:24 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176429 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/53/13/1531368.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1531368
+loop_
+_publ_author_name
+'Ertl, A.'
+'Hughes, J.M.'
+'Prowatke, S.'
+'Fritz, E.A.'
+'Rossman, G.R.'
+'London, D.'
+_publ_section_title
+;
+ Mn-rich tourmaline from Austria: structure, chemistry, optical spectra
+ and relations to synthetic solid solutions
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              1369
+_journal_page_last               1376
+_journal_volume                  88
+_journal_year                    2003
+_chemical_formula_sum
+'Al7.48 B3 Ca0.01 F0.43 Fe0.021 H3.25 Li0.37 Mn1.21 Na0.8 O30.57 Si5.8'
+_chemical_name_systematic
+;
+(Na0.8 Ca0.01) (Al1.28 Mn1.21 Li0.37 Fe0.021) Al6 ((Si5.8 Al0.2) O18) (B O3)3 
+((O H)3.25 F0.43 O0.32)
+;
+_space_group_IT_number           160
+_symmetry_space_group_name_Hall  'R 3 -2"'
+_symmetry_space_group_name_H-M   'R 3 m :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   15.9456
+_cell_length_b                   15.9456
+_cell_length_c                   7.1384
+_cell_volume                     1571.858
+_citation_journal_id_ASTM        AMMIAY
+_cod_data_source_file            Ertl_AMMIAY_2003_1789.cif
+_cod_data_source_block
+H3.25Al7.48B3Ca0.01F0.43Fe0.021Li0.37Mn1.21Na0.8O30.57Si5.8
+_cod_original_formula_sum
+;
+H3.25 Al7.48 B3 Ca0.01 F0.43 Fe0.021 Li0.37 Mn1.21 Na0.8 O30.57 Si5.8
+;
+_cod_database_code               1531368
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+-x+y,-x,z
+-y,-x,z
+x,x-y,z
+-x+y,y,z
+x+2/3,y+1/3,z+1/3
+-y+2/3,x-y+1/3,z+1/3
+-x+y+2/3,-x+1/3,z+1/3
+-y+2/3,-x+1/3,z+1/3
+x+2/3,x-y+1/3,z+1/3
+-x+y+2/3,y+1/3,z+1/3
+x+1/3,y+2/3,z+2/3
+-y+1/3,x-y+2/3,z+2/3
+-x+y+1/3,-x+2/3,z+2/3
+-y+1/3,-x+2/3,z+2/3
+x+1/3,x-y+2/3,z+2/3
+-x+y+1/3,y+2/3,z+2/3
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Na1 Na+1 0 0 0.25 0.8 0.0
+O7 O-2 0.2854 0.2861 0.0985 1 0.0
+H1 H+1 0.268 0.134 0.439 1 0.0
+O1 O-2 0 0 0.7993 0.57 0.0
+O2 O-2 0.06171 0.12342 0.4976 1 0.0
+Si1 Si+4 0.19196 0.19011 0.0178 0.967 0.0
+O6 O-2 0.19796 0.18771 0.7928 1 0.0
+O8 O-2 0.21028 0.2711 0.4591 1 0.0
+Al2 Al+3 0.29797 0.26132 0.6298 1 0.0
+Li1 Li+1 0.12442 0.06221 0.6415 0.123 0.0
+Ca1 Ca+2 0 0 0.25 0.01 0.0
+O5 O-2 0.1874 0.0937 0.1111 1 0.0
+Mn1 Mn+2 0.12442 0.06221 0.6415 0.403 0.0
+Fe1 Fe+2 0.12442 0.06221 0.6415 0.007 0.0
+F1 F-1 0 0 0.7993 0.43 0.0
+O4 O-2 0.09324 0.18648 0.0884 1 0.0
+O3 O-2 0.269 0.13445 0.5284 1 0.0
+Al1 Al+3 0.12442 0.06221 0.6415 0.427 0.0
+B1 B+3 0.11 0.22 0.4707 1 0.0
+Al3 Al+3 0.19196 0.19011 0.0178 0.033 0.0
