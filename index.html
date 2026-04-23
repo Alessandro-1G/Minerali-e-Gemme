@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minerali e Para-gemme | Atlante Interattivo</title>
+  <meta name="description" content="Atlante interattivo di minerali, gemme e para-gemme con schede tecniche avanzate e viewer 3D.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient-bg" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-shell">
+      <a class="logo" href="#top">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span>Atlante Mineralogico</span>
+      </a>
+      <nav aria-label="Navigazione principale">
+        <a href="#introduzione">Introduzione</a>
+        <a href="#metodo">Metodo</a>
+        <a href="#glossario">Glossario</a>
+        <a href="#catalogo">Catalogo</a>
+        <a href="#metallici">Metallici</a>
+        <a href="#confronto">Riassunto tecnico</a>
+        <a href="#confronto-avanzato">Confronto+</a>
+        <a href="#giacimenti">Mappa</a>
+        <a href="#interattiva">Quiz</a>
+        <a href="#galleria">Galleria</a>
+        <a href="#fonti">Fonti</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-reveal">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Esplorazione scientifica</p>
+          <h1>Minerali e Para-gemme</h1>
+          <p class="hero-subtitle">
+            Percorso didattico tra cristallografia, composizione chimica e proprietà diagnostiche:
+            dal catalogo classico ai minerali rarissimi.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#catalogo">Inizia l'esplorazione</a>
+            <a class="button button-ghost" href="#confronto">Vai al confronto</a>
+          </div>
+          <ul class="hero-stats">
+            <li><strong id="stat-samples">0</strong><span>campioni nel database</span></li>
+            <li><strong id="stat-properties">0</strong><span>proprietà tecniche per scheda</span></li>
+            <li><strong id="stat-classes">0</strong><span>classi mineralogiche coperte</span></li>
+          </ul>
+          <div class="signature-mark" aria-label="Logo del progetto">
+            <img
+              src="assets/images/alessandro-iovine-logo.png"
+              alt="Logo Alessandro Iovine 1^G"
+              loading="lazy"
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-intro section-reveal" id="introduzione">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Introduzione teorica</p>
+          <h2>Fondamenti di mineralogia applicata</h2>
+        </div>
+        <article class="panel intro-theory">
+          <h3>Definizione operativa</h3>
+          <p>
+            Un minerale è un solido naturale con una composizione chimica definita e una struttura interna ordinata.
+            Per riconoscerlo si osservano proprietà fisiche come durezza, densità, sfaldatura, frattura e striscio,
+            insieme alle caratteristiche ottiche e al contesto geologico in cui si è formato.
+          </p>
+        </article>
+        <div class="intro-grid">
+          <article class="panel">
+            <h3>Minerali</h3>
+            <p>
+              I minerali costituiscono le rocce e registrano i processi di formazione della crosta terrestre.
+              Si formano attraverso fenomeni come la cristallizzazione del magma, il metamorfismo e i processi sedimentari.
+            </p>
+          </article>
+          <article class="panel">
+            <h3>Gemme</h3>
+            <p>
+              Le gemme sono minerali scelti per la loro bellezza, come trasparenza, colore e lucentezza.
+              Dopo il taglio e la lavorazione vengono utilizzate in gioielleria.
+              In ambito scientifico aiutano a comprendere il legame tra composizione chimica e colore.
+            </p>
+          </article>
+          <article class="panel">
+            <h3>Para-gemme</h3>
+            <p>
+              Le para-gemme includono materiali ornamentali che non sempre appartengono a un singolo minerale,
+              come rocce, aggregati o materiali organici. Sono utilizzate soprattutto a scopo decorativo
+              e hanno interesse nello studio storico e gemmologico.
+            </p>
+          </article>
+        </div>
+        <div class="intro-note">
+          <strong>Nota didattica:</strong> il catalogo distingue chiaramente tra specie mineralogiche,
+          gruppi e varietà per evitare confusione e rendere più semplice lo studio.
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-method section-reveal" id="metodo">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Procedura didattica</p>
+          <h2>Metodo pratico di riconoscimento</h2>
+        </div>
+        <div class="method-grid">
+          <article class="panel method-step">
+            <h3>1. Osservazione iniziale</h3>
+            <p>
+              Valuta colore, abito cristallino e lucentezza. Annota eventuali zonature o inclusioni macroscopiche.
+            </p>
+          </article>
+          <article class="panel method-step">
+            <h3>2. Test fisici</h3>
+            <p>
+              Misura <span class="glossary-inline" data-term="durezza">durezza</span> e
+              <span class="glossary-inline" data-term="densita">densitÃ </span>.
+              Questi valori riducono rapidamente il numero di specie possibili.
+            </p>
+          </article>
+          <article class="panel method-step">
+            <h3>3. Diagnostica strutturale</h3>
+            <p>
+              Verifica <span class="glossary-inline" data-term="sfaldatura">sfaldatura</span>,
+              <span class="glossary-inline" data-term="frattura">frattura</span> e
+              <span class="glossary-inline" data-term="striscio">striscio</span> su superficie non alterata.
+            </p>
+          </article>
+          <article class="panel method-step">
+            <h3>4. Inquadramento chimico</h3>
+            <p>
+              Confronta <span class="glossary-inline" data-term="formula">formula chimica</span> e classe mineralogica,
+              poi verifica il <span class="glossary-inline" data-term="sistema">sistema cristallino</span>.
+            </p>
+          </article>
+          <article class="panel method-step">
+            <h3>5. Conferma geologica</h3>
+            <p>
+              Correlare il campione all'ambiente di formazione (magmatico, metamorfico o sedimentario) conferma l'identificazione.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-glossary section-reveal" id="glossario">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Glossario interattivo</p>
+          <h2>Termini fondamentali di laboratorio</h2>
+        </div>
+        <div class="glossary-layout">
+          <article class="panel">
+            <h3>Seleziona un termine</h3>
+            <p class="glossary-hint">Clicca su una voce per selezionarla.</p>
+            <div id="glossary-cloud" class="glossary-cloud" aria-label="Elenco termini del glossario"></div>
+          </article>
+          <article class="panel glossary-detail" id="glossary-detail" aria-live="polite">
+            <h3>Definizione</h3>
+            <p>Clicca su un termine per visualizzare una spiegazione sintetica.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-catalogo section-reveal" id="catalogo">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Catalogo esteso</p>
+          <h2>Database mineralogico avanzato</h2>
+        </div>
+
+        <div class="controls-shell">
+          <div class="controls-head">
+            <div>
+              <p class="controls-eyebrow">Navigazione intelligente</p>
+              <p class="controls-title">Filtri del catalogo</p>
+            </div>
+            <div class="active-filters" id="active-filters" aria-live="polite">
+              <strong>0</strong> filtri attivi
+            </div>
+          </div>
+
+          <div class="controls" aria-label="Filtri del catalogo">
+          <label class="field" data-filter="query">
+            <span>Ricerca per nome</span>
+            <input id="search-input" type="search" placeholder="Es. diamante, epidoto, pirite...">
+          </label>
+          <label class="field" data-filter="category">
+            <span>Filtro categoria</span>
+            <select id="category-filter">
+              <option value="all">Tutte le categorie</option>
+            </select>
+          </label>
+          <label class="field" data-filter="color">
+            <span>Filtro colore</span>
+            <select id="color-filter">
+              <option value="all">Tutti i colori</option>
+            </select>
+          </label>
+          <label class="field" data-filter="rarity">
+            <span>Filtro rarità</span>
+            <select id="rarity-filter">
+              <option value="all">Qualsiasi rarità</option>
+              <option value="comune">Comune</option>
+              <option value="non comune">Non comune</option>
+              <option value="raro">Raro</option>
+              <option value="rarissimo">Rarissimo</option>
+            </select>
+          </label>
+          <label class="field" data-filter="use">
+            <span>Filtro uso</span>
+            <select id="use-filter">
+              <option value="all">Tutti gli usi</option>
+              <option value="gemmologico">Gemmologico</option>
+              <option value="industriale">Industriale</option>
+              <option value="collezionistico">Collezionistico</option>
+              <option value="misto">Misto</option>
+            </select>
+          </label>
+          <label class="field field-range" data-filter="hardness">
+            <span>Durezza minima Mohs: <strong id="hardness-output">0</strong></span>
+            <input id="hardness-filter" type="range" min="0" max="10" step="0.5" value="0">
+          </label>
+          <button class="button button-ghost" id="reset-filters" type="button">Reset filtri</button>
+        </div>
+        </div>
+
+        <div id="alpha-index" class="alpha-index" aria-label="Indice alfabetico rapido"></div>
+        <div id="catalog-meta" class="catalog-meta"></div>
+        <div id="catalog-categories" class="catalog-categories"></div>
+      </div>
+    </section>
+
+    <section class="section section-catalogo section-metallic section-reveal" id="metallici">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Sezione dedicata</p>
+          <h2>Elementi nativi e minerali metallici</h2>
+        </div>
+        <div id="metal-cards-grid" class="cards-grid"></div>
+      </div>
+    </section>
+
+    <section class="section section-table section-reveal" id="confronto">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Tabella comparativa</p>
+          <h2>Riassunto tecnico tra campioni</h2>
+        </div>
+        <div class="table-wrap comparison-wrap">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>Campione</th>
+                <th>Categoria</th>
+                <th>Formula</th>
+                <th>Durezza</th>
+                <th>Densità (g/cm³)</th>
+                <th>Sistema</th>
+                <th>Colore tipico</th>
+              </tr>
+            </thead>
+            <tbody id="comparison-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-advanced-compare section-reveal" id="confronto-avanzato">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Confronto avanzato</p>
+          <h2>Analisi visiva tra 2-3 campioni</h2>
+        </div>
+        <div class="advanced-controls panel">
+          <label class="field">
+            <span>Campione A</span>
+            <select id="compare-a"></select>
+          </label>
+          <label class="field">
+            <span>Campione B</span>
+            <select id="compare-b"></select>
+          </label>
+          <label class="field">
+            <span>Campione C (opzionale)</span>
+            <select id="compare-c"></select>
+          </label>
+        </div>
+        <div id="compare-cards" class="compare-cards"></div>
+        <article class="panel compare-bars-panel">
+          <h3>Indicatori comparativi normalizzati</h3>
+          <div id="compare-bars" class="compare-bars"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-deposits section-reveal" id="giacimenti">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Distribuzione geologica</p>
+          <h2>Mappa dei principali giacimenti</h2>
+        </div>
+        <div class="deposits-layout">
+          <article class="panel deposits-map-panel">
+            <div id="deposits-map" class="deposits-map" aria-label="Mappa satellitare dei principali giacimenti"></div>
+          </article>
+          <article class="panel deposits-detail" id="deposits-detail" aria-live="polite"></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-interattiva section-reveal" id="interattiva">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Verifica didattica</p>
+          <h2>Quiz: riconosci il campione</h2>
+        </div>
+        <div class="quiz-layout">
+          <article class="quiz-panel">
+            <p id="quiz-question">Caricamento quiz...</p>
+            <div id="quiz-options" class="quiz-options"></div>
+            <p id="quiz-feedback" class="quiz-feedback" aria-live="polite"></p>
+            <div class="quiz-meta">
+              <span id="quiz-progress">Domanda 0/0</span>
+              <span id="quiz-score">Punteggio: 0</span>
+            </div>
+            <button class="button button-primary" id="quiz-next" type="button">Prossima domanda</button>
+          </article>
+          <aside class="panel explain-panel">
+            <h3>Metodo di identificazione</h3>
+            <ul>
+              <li>Confronta sempre formula chimica, classe e sistema cristallino.</li>
+              <li>Usa durezza Mohs e densità per discriminare campioni simili.</li>
+              <li>Controlla sfaldatura/frattura per distinguere specie e varietà.</li>
+              <li>Valuta il contesto geologico di formazione per confermare l'ipotesi.</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-gallery section-reveal" id="galleria">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Galleria visiva</p>
+          <h2>Texture e caratteri macroscopici</h2>
+        </div>
+        <div class="gallery-grid" id="gallery-grid"></div>
+      </div>
+    </section>
+
+    <section class="section section-curiosita section-reveal" id="curiosita">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Approfondimenti</p>
+          <h2>Note scientifiche e storiche</h2>
+        </div>
+        <div class="curiosita-grid">
+          <article class="panel">
+            <h3>Colori e elementi in traccia</h3>
+            <p>
+              Piccole quantità di elementi chimici diversi possono modificare il colore dei minerali.
+              Questo spiega perché esistono molte varietà dello stesso minerale con colori differenti.
+            </p>
+          </article>
+          <article class="panel">
+            <h3>Gruppi mineralogici</h3>
+            <p>
+              Alcuni minerali appartengono a gruppi con caratteristiche simili, come feldspati,
+              granati e tormaline. Conoscere questi gruppi aiuta a classificare e riconoscere i campioni.
+            </p>
+          </article>
+          <article class="panel">
+            <h3>Rarità e valore scientifico</h3>
+            <p>
+              Alcuni minerali sono molto rari e si formano in condizioni particolari.
+              Lo studio di questi campioni aiuta a comprendere meglio i processi geologici della Terra.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-sources section-reveal" id="fonti">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Riferimenti</p>
+          <h2>Principali fonti scientifiche utilizzate</h2>
+        </div>
+        <div class="sources-grid">
+          <article class="panel">
+            <h3>Mineralogia e database</h3>
+            <ul class="sources-list">
+              <li><a href="https://www.mindat.org/" target="_blank" rel="noopener noreferrer">Mindat.org - Mineral Database</a></li>
+              <li><a href="https://rruff.info/" target="_blank" rel="noopener noreferrer">RRUFF Project - Spectra e dati strutturali</a></li>
+              <li><a href="https://www.webmineral.com/" target="_blank" rel="noopener noreferrer">Webmineral - Proprietà cristallografiche</a></li>
+            </ul>
+          </article>
+          <article class="panel">
+            <h3>Geologia e contesto</h3>
+            <ul class="sources-list">
+              <li><a href="https://www.bgs.ac.uk/" target="_blank" rel="noopener noreferrer">British Geological Survey</a></li>
+              <li><a href="https://www.usgs.gov/" target="_blank" rel="noopener noreferrer">USGS - United States Geological Survey</a></li>
+              <li><a href="https://www.isprambiente.gov.it/" target="_blank" rel="noopener noreferrer">ISPRA - Geologia e risorse italiane</a></li>
+            </ul>
+          </article>
+          <article class="panel">
+            <h3>Gemmologia e classificazione</h3>
+            <ul class="sources-list">
+              <li><a href="https://www.gia.edu/" target="_blank" rel="noopener noreferrer">GIA - Gemological Institute of America</a></li>
+              <li><a href="https://www.gemsociety.org/" target="_blank" rel="noopener noreferrer">International Gem Society</a></li>
+              <li><a href="https://www.iugs.org/" target="_blank" rel="noopener noreferrer">IUGS - Nomenclatura e standard</a></li>
+            </ul>
+          </article>
+        </div>
+        <p class="catalog-meta">Le informazioni presenti nel sito sono state rielaborate e semplificate a scopo didattico.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-layout">
+      <div>
+        <p class="footer-title">Progetto scolastico: Minerali e Para-gemme</p>
+        <p class="footer-sub">
+          Elaborazione digitale con focus su classificazione, proprietà fisico-chimiche e confronto interattivo.
+        </p>
+      </div>
+      <p class="footer-credits">Immagini mineralogiche da fonti enciclopediche (Wikimedia Commons).</p>
+      <div class="footer-signature" aria-label="Logo autore">
+        <img
+          src="assets/images/alessandro-iovine-logo.png"
+          alt="Logo Alessandro Iovine 1^G"
+          loading="lazy"
+        >
+      </div>
+    </div>
+  </footer>
+
+  <dialog id="detail-modal" class="detail-modal detail-modal-full">
+    <button class="modal-close" id="modal-close" type="button" aria-label="Chiudi scheda">&times;</button>
+    <div class="modal-content" id="modal-content"></div>
+  </dialog>
+
+  <dialog id="lightbox" class="lightbox">
+    <button class="modal-close" id="lightbox-close" type="button" aria-label="Chiudi immagine">&times;</button>
+    <figure class="lightbox-figure">
+      <img id="lightbox-image" alt="">
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+  </dialog>
+
+  <script src="assets/vendor/three.min.js" defer></script>
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+    defer
+  ></script>
+  <script src="assets/cif/mineral-cif-map.js" defer></script>
+  <script src="assets/cif/mineral-cif-texts.js" defer></script>
+  <script src="assets/mineral-image-map.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
